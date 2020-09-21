@@ -1,0 +1,36 @@
+h1 
+{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large; /*bisa juga pake pt px cm dkk*/
+}
+
+/* p {color:green;} ini kan untuk semua p */
+
+/* class selector */
+.apanamanyaterserah {
+    color: #99ccff;
+}
+
+p.namanyaterserah { /*lebih spesifik depannya tambahin p, cuma p yg bisa pake*/
+    color: yellow;
+}
+
+.terserah {
+    color: red;
+}
+
+body {
+    background-color:lavender;
+}
+
+/* id selector */
+#inisamaterserah {
+    color: coral;
+    border: 1px solid black;
+}
+
+div > p {
+    color:white;
+    background-color: rgb(162, 224, 224);
+}
